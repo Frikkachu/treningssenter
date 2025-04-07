@@ -1,22 +1,49 @@
-h1 {
-    color: orange;
+h1,h2 {
+    color: #F26722;
 }
 
 P {
-    Color: orange;
+    Color: #F26722;
 }
 
-a {
-    text-decoration: none;
-}
 
-img {
-    width: 300px;
+.hero img {
+    width: 1000px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: bisque;
+}
+
+.meny img {
+    width: 200px;
+}
+
+.meny {
+    background-color: #FF9F51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menybtn a {
+    text-decoration: none;
+    color: #F26722;
+    background-color: #FDFF76;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.timeplan {
+    display: flex;
+}
+
+.priser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
