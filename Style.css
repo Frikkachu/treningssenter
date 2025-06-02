@@ -1,5 +1,13 @@
-h1,h2 {
+body, html {
+    font-family: "Varela Round", sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-weight: 700;
+}
+
+h1,h2, .kl, .dager {
     color: #F26722;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 P {
@@ -8,7 +16,9 @@ P {
 
 
 .hero img {
-    width: 1000px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 8px solid;
 }
 
 .hero {
@@ -18,7 +28,7 @@ P {
 }
 
 .meny img {
-    width: 200px;
+    width: 400px;
 }
 
 .meny {
@@ -26,19 +36,20 @@ P {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+    border-bottom: 8px solid;
 }
 
 .menybtn a {
     text-decoration: none;
     color: #F26722;
     background-color: #FDFF76;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px;
-    font-size: 25px;
-}
-
-.timeplan {
-    display: flex;
+    font-size: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .priser {
@@ -46,4 +57,120 @@ P {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 120px;
+}
+
+.basic {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.venstre, .adresse {
+    font-size: 39px;
+    line-height: 10px;
+    background-color:  #FFDBB5;
+    padding: 20px;
+    border-radius: 50px;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.venstre h2 {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #FDFF76;
+    color: #F26722;
+    border-style: line;
+    border-color: #F26722;
+    border-radius: 15px;
+    border: 2px solid;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 40px;
+    margin-right: 137px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.basictekst {
+    line-height: 120px;
+    font-size: 35px;
+    background-color: #FFDBB5;
+    border-radius: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 340px;
+    
+}
+
+.grey {
+    color: #9f9f9f;
+}
+
+.orange {
+    margin: 0px;
+    margin-top: -10px;
+}
+
+p {
+    margin: 0px;
+}
+
+.merinfo {
+    margin-top: -125px;
+}
+
+.timeplan {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.åpningstider, .adresse {
+    font-size: 39px;
+    background-color: #FFDBB5;
+    border-radius: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.tider {
+    display: flex;
+    gap: 80px;
+    line-height: 100px;
+    
+}
+
+.åpningstider h1 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+    
+}
+
+.adresse {
+    padding: 80px;
+}
+
+.bunnen {
+    background-color: #FF9F51;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    border-top: 8px solid;
+    margin-top: 100px;
+    
+}
+
+.bunnen h1 {
+    color: #000;
 }
